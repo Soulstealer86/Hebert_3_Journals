@@ -1,0 +1,2 @@
+What is psuedocode used for? It's a fake code, used for "drawing out the map" of a website.
+More importantly: Why will we use it? We'll use it for making a code, before actually making a code

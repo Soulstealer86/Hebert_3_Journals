@@ -1,0 +1,17 @@
+#Public
+#Class
+public static void main(String[] args){
+#This is the main class!
+This sis important because,
+every java program has a main class.
+This doesn't return anything(
+DATA TYPES:(These are some of the primitive 
+DATA types)
+[name, desc, example]
+int-whole number- an integer, i.e., "counting number", e.g., 42
+float-a floating point decimal, 1.4635897
+short, long, double- These are numbers with decimals.
+char-Just one character, e.g. "1" "A" "P" "Q"
+string- alot of characters, e.g. "h8ehoopla;430"
+boolean- True of false, 1/0
+
