@@ -1,0 +1,11 @@
+How can you count in Java?
+String s = "...";
+int counter = 0;
+for( int i=0; i<s.length(); i++ ) {
+     if( s.charAt(i) == '$' ) {
+          counter++;
+      }
+}
+How can you see if a number is divisible?
+
+How can you track if a number has a divisor?
