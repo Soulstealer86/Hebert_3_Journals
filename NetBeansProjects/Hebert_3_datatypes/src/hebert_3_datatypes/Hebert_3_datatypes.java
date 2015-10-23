@@ -58,7 +58,7 @@ public class Hebert_3_datatypes {
         // maps to a character
         i = 7;
         a = 0;
-        e = ninja;
+        e = "ninja";
         System.out.println(i + a +"an integer/" + "plus a float");
         System.out.println(e + i + " an integer" + "plus a float");
         System.out.println(a + b +"a float/" + "plus a double");
