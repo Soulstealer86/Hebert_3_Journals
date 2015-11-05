@@ -1,0 +1,11 @@
+What are strings?
+Methods
+
+What are they good for?
+Holding text as read-only Chars.
+
+What are some string methods?
+Normalize(), Format (String, Object)
+
+How do we identify string methods?
+Appear to modify strings, but really create and return a new string that contains the result of the operation.
