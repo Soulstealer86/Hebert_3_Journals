@@ -1,0 +1,50 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package hebert_3_datatypes;
+
+/**
+ *
+ * @author raynehebert
+ */
+public class Hebert_3_datatypes {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        //This is a comment
+        //We will be using many comments to explain
+        //our code
+        //This program explores some of the
+        //primitive data types
+        int i = 0;
+        float a= 0.0f;
+        double b = 0.01;
+        short c = 123;
+        char d = 123;
+        String e = "Words";
+        
+        
+        /*
+        here we will look at some mathmatical
+        operators
+        */
+        // + This adds two numbers or more
+        // - This subtractss two numbers or more
+        // * This multiplies two numbers or more
+        // / This divides two numbers or more
+        // % This is modulo, it shows the remainder
+
+
+        System.out.println(i + "an integer");
+        System.out.println(a +  );
+        System.out.println(b + );
+        System.out.println(c + );
+        System.out.println(d + );
+        System.out.println(e + );
+    }
+    
+}
