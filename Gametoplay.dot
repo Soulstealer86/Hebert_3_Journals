@@ -9,33 +9,64 @@ D [label="You begin to clean your home, erasing all evidence of the blazing fury
 E [label="Soon there is not a scorch to be seen.\n As you begin to leave, you see something burning in the corner of your eye, and it's hovering just above the ground."]
 F [label="You grab the thing, and it slithers out of your grip.\n Confused, you try again to grasp the hovering flame, which is enlongating."]
 G [label="Do you choose to continue?"]
-H1 [label="You try to grasp the flame once more, and too late do you realize that it was a snake, made of flames, it bites and everything fades to black."]
-H2 [label="You lost your life."]
-I1 [label="You leave your hand hanging, and the creature- a fire snake- comes towards you and wraps itself around your arm."]
-I2 [label="Surprisingly, you aren't hurt."]
-J [label="Then the skies turn red, and as you walk outside, the streets are filled with blood."]
-K [label="You look up, and can stare at the sun, or the raging sphere of flames that used to be yellow, now they're red."]
-L [label="You can feel everything getting older, entropy is running at an accelerated rate."]
-M [label="Buildings crumble around you, the blood dries up, then disappears."]
-N [label="You aren't getting older. This isn't right."]
-O [label="You, as a matter of fact, aren't changing at all."]
+H1 [label="Yes"]
+H2 [label="No"]
+I1 [label="You try to grasp the flame once more, and too late do you realize that it was a snake, made of flames, it bites and everything fades to black."]
+I2 [label="You lost your life."]
+J1 [label="You leave your hand hanging, and the creature- a fire snake- comes towards you and wraps itself around your arm."]
+J2 [label="Surprisingly, you aren't hurt."]
+K [label="Then the skies turn red, and as you walk outside, the streets are filled with blood."]
+L [label="You look up, and can stare at the sun, or the raging sphere of flames that used to be yellow, now they're red."]
+M [label="You can feel everything getting older, entropy is running at an accelerated rate."]
+N [label="Buildings crumble around you, the blood dries up, then disappears."]
+O [label="You aren't getting older. This isn't right."]
+P [label="You, as a matter of fact, aren't changing at all."]
+Q [label="You sit down and think about things, and what is going on, and you hear a voice"]
+R [label="You ask who it is, and its response startles you: 'It said I am the Universe'"]
+S [label="\"The Universe?\" You ask, shocked. \"Yes, the universe.\""]
+T [label="Universe: \"The Darkness heralds only one thing, Salamander. The end of all time.\""]
+U [label="\"That is what's happening right now, the question was asked.\""]
+V [label="\"What question?\" \"The Only Question. Doctor Who?\""]
+W [label="\"And that's it? You're just going to stop functioning because of that?!\""]
+X [label="\"It is what must happen\""]
+Y [label="\"I REFUSE THE END OF TIME!\""]
+Z [label="Suddenly, everything stopped, your body is torn apart down to the atomic level"]
+AB [label="You lost your life"]
+BB [label="Wait- no you didn't. This is wrong, I mislead you. You became the universe, you bonded on the atomic level and your will overpowered it."]
+CB [label="You won. Conratulations, I applaud you."]
 
-
-A->B1
-A->C1
-B1->B2
-B2->B3
-C1->C2
-B3->D
-D->E
-E->F
-F->G
-G->H1
-G->I1
-H1->H2
-I1->I2
-
-
-
-
+A -> B1
+A -> C1
+B1 -> B2
+B2 -> B3
+C1 -> C2
+B3 -> D
+D -> E
+E -> F
+F -> G
+G -> H1
+G -> H2
+H1 -> I1
+I1 -> I2
+H2 -> J1
+J1 -> J2
+J2 -> K
+K -> L
+L -> M
+M -> N
+N -> O
+O -> P
+P -> Q
+Q -> R
+R -> S
+S -> T
+T -> U
+U -> V
+V -> W
+W -> X
+X -> Y
+Y -> Z
+Z -> AB
+AB -> BB
+BB -> CB
 }
