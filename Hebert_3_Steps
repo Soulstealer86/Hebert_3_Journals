@@ -1,0 +1,5 @@
+Step 1: Create a file with nanos
+Step 2: Pour heart into journal
+Step 3: git add some files
+Step 4: git commit -m my git message
+Step 5: git push * -u origin master

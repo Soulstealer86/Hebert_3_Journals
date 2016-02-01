@@ -1,0 +1,9 @@
+In your game, how can you track what challenges the player has solved?
+
+
+How can you track HP?
+
+
+Items?
+
+You track them all with booleans.

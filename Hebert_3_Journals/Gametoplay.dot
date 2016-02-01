@@ -1,0 +1,41 @@
+digraph simple_map{
+A [label="You wake up to a fire, burning all around you.\nWhat do you do?"]  //node B
+B1 [label="Relax, don't worry about it."]
+B2 [label="The fire seems to die out as you relax."]
+B3 [label="'I have begun to control my abilities', you think to yourself."]
+C1 [label="Start to panic; run around screaming, looking for water."]
+C2 [label="Fire appears to become enraged, growing larger and destroying more, including yourself.\n You, too, were consumed in the blaze."]
+D [label="You begin to clean your home, erasing all evidence of the blazing fury that was there a minute ago."]
+E [label="Soon there is not a scorch to be seen.\n As you begin to leave, you see something burning in the corner of your eye, and it's hovering just above the ground."]
+F [label="You grab the thing, and it slithers out of your grip.\n Confused, you try again to grasp the hovering flame, which is enlongating."]
+G [label="Do you choose to continue?"]
+H1 [label="You try to grasp the flame once more, and too late do you realize that it was a snake, made of flames, it bites and everything fades to black."]
+H2 [label="You lost your life."]
+I1 [label="You leave your hand hanging, and the creature- a fire snake- comes towards you and wraps itself around your arm."]
+I2 [label="Surprisingly, you aren't hurt."]
+J [label="Then the skies turn red, and as you walk outside, the streets are filled with blood."]
+K [label="You look up, and can stare at the sun, or the raging sphere of flames that used to be yellow, now they're red."]
+L [label="You can feel everything getting older, entropy is running at an accelerated rate."]
+M [label="Buildings crumble around you, the blood dries up, then disappears."]
+N [label="You aren't getting older. This isn't right."]
+O [label="You, as a matter of fact, aren't changing at all."]
+
+
+A->B1
+A->C1
+B1->B2
+B2->B3
+C1->C2
+B3->D
+D->E
+E->F
+F->G
+G->H1
+G->I1
+H1->H2
+I1->I2
+
+
+
+
+}

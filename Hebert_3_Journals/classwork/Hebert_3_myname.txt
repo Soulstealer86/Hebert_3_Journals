@@ -1,0 +1,8 @@
+Begin:
+Go 5 down
+Go 5 up
+Go 3 right
+Go 3 down
+Go 3 left
+Go 2 right
+Go 3 down
