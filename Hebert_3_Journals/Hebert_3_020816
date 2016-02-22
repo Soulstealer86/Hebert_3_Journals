@@ -1,0 +1,2 @@
+How would one check to see whether weapons damage enemies or objects in Slick?
+Go to the enemy class, check intersect

@@ -1,0 +1,7 @@
+What is this?: 
+public void render(GameContainer gc, StateBasedGame sbg, Graphics g) 
+throws SlickException {
+It draws your image
+
+Is it a class or method? How do you know?
+It's a class, because of the public void

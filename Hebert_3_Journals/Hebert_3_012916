@@ -1,0 +1,9 @@
+What is a class constructor?
+A special type of subroutine used to create an object
+
+What should be included in a class constructor for orbs? Why?
+Damage
+
+What methods should the orb have? why?
+Damage (hit point reduction), duration of existance,
+destruction when it comes into contact with a wall or solid object

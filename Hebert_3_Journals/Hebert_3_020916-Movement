@@ -1,0 +1,23 @@
+How can / will you make the orb move in the direction you are facing?
+Add a code that makes it move?
+
+Explain and provide specific code.
+
+
+var projectile : Transform;
+ var bulletSpeed : float = 20;
+ 
+ function Update () {
+     // Put this in your update function
+     if (Input.GetButtonDown("LeftMouse")) {
+ 
+     // Instantiate the projectile at the position and rotation of this transform
+     var clone : Transform;
+     clone = Instantiate(projectile, transform.position, transform.rotation);
+ 
+     // Add force to the cloned object in the object's forward direction
+     clone.rigidbody.AddForce(clone.transform.forward * shootForce);
+     }
+ }
+
+
