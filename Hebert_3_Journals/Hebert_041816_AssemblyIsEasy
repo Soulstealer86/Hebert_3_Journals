@@ -1,0 +1,35 @@
+For what computational reason did you type elf64?
+It's the 64-bit operating system
+
+Why did you use ld?
+I really don't know.... I just learned a tiny bit of this, but not that.
+
+Why did you not have to use chmod to make sample executable?
+What's chmod?
+
+What problem did you have to solve to get it to work?
+It still doesn't work.
+
+Given your actual experience with Assembly now --- Is assembly 'quick and easy'? Why or why not?
+NO. Didn't think it was easy even in the game...
+
+What does 'low level' actually mean with regards to programming languages?
+Low level means basicaly the code for the code, it's speaking near directly to the processing.
+global _start
+
+        section .text
+_start:
+        ; write(1, NotEasy, 13)
+        mov     rax, 1                  ; system call 1 is write
+        mov     rdi, 1                  ; file handle 1 is stdout
+        mov     rsi, message            ; adress of string to output
+        mov     rdx, 15                 ; number of bytes
+        syscall                         ; invoke operating system to do the write
+
+        ; exit(0)
+        mov eax, 60                     ; system call 60 is exit
+        xor rdi, rdi                    ; exit code is 0
+        syscall                         ; invoke operating system to exit
+message:
+        db      "Was this easy", 10        ; note the newline at the end
+
