@@ -1,0 +1,24 @@
+Write a Java method to return a cubed value of some number:
+public static int cube (int 3){
+    return (3*3*3);
+}
+
+Write an arduino function to return the cubed value of some number:
+float y(float x)
+   {
+   return 8.0 * pow(x, 1.0/3.0) - 1.3;
+   }
+
+Create the class, an object, and a class constructor for class student:
+public class student {
+String student;
+int grade;
+boolean hashair;
+String hairtype;
+String eyecolour;
+String clothingstyle;
+}
+Describe - if we were to continue with Arduino - what would you create?
+I don't think I'd be able to create something functioning, 
+but maybe I could do a light and speaker thing, 
+or that infuriating frequency device
