@@ -1,0 +1,3 @@
+Explain in your own words: what happens with nested for loops?
+The outer loop determines the number of times the inner loop is repeated.
+This is the most common nested loop.
