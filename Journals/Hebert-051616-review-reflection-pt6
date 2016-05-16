@@ -1,0 +1,27 @@
+Explain casting, Up-Casting, Down-Casting:
+*Casting is basically taking an object and "turning it into another".
+Sort of like taking iron and /casting/ it into a sword.
+
+*Up casting is pretty much taking someone's B grade and making it an A
+
+*Down casting is like taking someone's A grade and making it an B,
+BUT you need more information to do this than to Up-Cast.
+
+Give a specific code example for Up-Casting:
+Cat c1 = new Cat();		 
+	Animal a = c1;		 //automatic upcasting to Animal
+
+Give a specific code example for Down-Casting:
+Car c1 = new Car();		 
+	Vehicle a = c1;		 
+	Car c2 = (Car) a;    //manual downcasting back to a Car
+
+Give a specific code example for converting a char to a string:
+char ch = 'U';
+String charToString = Character.toString(ch);
+
+What is the range of values for byte? Why?
+127, because in binary it's 0111111, and -128. 
+The -128 is strange because you'd think that 
+128 would be 10000000 would be a POSITIVE 128, but NO.
+It's negative. There's a system that explains the reason for this called Two's Complement.
